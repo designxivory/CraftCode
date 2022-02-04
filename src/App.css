@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #e2e9f3;
+  margin:0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: green;
+  min-height: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 15px;
+}
+
+
+.headerContents a{
   color: white;
+  font-weight: bold;
+}
+.headerContents > div {
+  color: lightgray;
+  display: inline-block;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.HeaderText{
+  color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sidebar{
+  color: lightgray;
+  background-color: #393A3D;
+  width: 175px;
+  height: 100vh;
+  display: inline-block;
+
+}
+
+
+#titleBox,#miniIcon{
+  display:inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#miniIcon{
+  width: 20px;
+  height:20px;
+  background-color: green;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+#titleBox > p{
+  font-size: 10px;
+}
+#titleBox > p,h3{
+  margin-bottom: 0px;
+  margin-top: 0px
+}
+
+#newButton{
+  position: static;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 20px;
+  width: 120px;
+  padding:5px;
+  height:15px;
+  text-align: center;
+  align-content: center;
+  margin-left: 20px;
+}
+
+#newButton #plusSign{
+  font-size: 25px;
+  position: relative;
+  bottom: 8px;
+
+}
+#newButton #wordNew{
+  font-size: 13px;
+  height: 29px;
+  padding: 5px;   
+  position: relative;
+  bottom: 10px;
+
+}
+
+.menuItems{
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+}
+
+
+
+.main{
+  height: 100vh;
+  background-color: white;
+  display: inline-block;
+  width:100%;
+  position: absolute;
 }
