@@ -1,0 +1,33 @@
+/* .main{
+    height: 100vh;
+    background-color: white;
+    display: inline-block;
+    width:100%;
+    position: absolute;
+    overflow-y: scroll;
+  }
+   */
+.TopNavBar_container{
+    min-height: 40px;
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+}
+
+.TopNavBar_container div{
+    display: inline-block;
+}
+
+#top_nav_bar_menu{
+   margin-left: 20px;
+   margin-top: 15px;
+}
+
+#top_nav_bar_sampleText{
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    position: relative;
+    left:20px;
+    bottom: 6px;
+}

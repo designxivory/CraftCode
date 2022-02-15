@@ -1,0 +1,19 @@
+
+.Subscribe_Popop_Banner {
+    background-color: green;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .Subscribe_Popop_Banner a{
+    color: white;
+    font-weight: bold;
+  }
+  .Subscribe_Popop_Banner > div {
+    color: lightgray;
+    display: inline-block;
+    margin: 15px;
+  }  

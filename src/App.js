@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import './App.css';
-import Main from './main';
+import Layout from './Layout';
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Layout />
     </div>
     
   );

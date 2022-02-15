@@ -1,0 +1,98 @@
+#create_project_modal_container{
+    display:none;
+    position: absolute;
+    right:0px;
+    top:0px;
+    overflow: hidden;
+    width:500px;
+    height:100%;
+}
+
+#create_project_modal{
+    padding: 15px;
+    border-style: hidden;
+    border-radius: 3px;;
+    position: fixed;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background: white;
+    
+}
+
+#create_project_modal.show {
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0s;
+
+}
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+
+
+#modal-1-title{
+    font-size: 15px;
+
+}
+#modal-1 *{
+    display: block;
+}
+
+#close_modal_button{
+    opacity:30%;
+    background-color: white;
+    border-style: hidden;
+    background-image: url("../../public/x.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px; right: 15px;
+    height: 12px;
+    width: auto;
+}
+
+label{
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+input, select, textarea{
+    margin-right: 0px;
+    width: 380px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    opacity: 60%;
+    outline-color: green;
+}
+
+select{
+    width:390px;
+}
+textarea{
+    height: 100px;
+}
+
+#project_save_button{
+    border-style: hidden;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight:600;
+}
+
+#project_save_button:hover{
+    transform: scale(1.05);
+}
+
