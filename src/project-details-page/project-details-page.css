@@ -1,0 +1,186 @@
+.project_details_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: calc(100% - 200px);
+    position: absolute;
+    top: 85px;
+    left: 175px;
+    background-color: rgb(239, 243, 248);
+    padding: 30px;
+    padding-top: 10px;
+}
+
+
+#project_details_status_section{
+    display: block;
+    height: 200px;
+    width: 100vh;
+}
+
+#project_details_all_projects_button{
+    color: dodgerblue;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#project_details_page_title{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    /* margin-bottom: 7px; */
+}
+
+#project_details_page_status_buttons{
+    display: inline-block;
+
+}
+#project_details_page_status_buttons > *{
+    text-decoration: none;
+    border-right: 1px solid lightgray;
+    padding-right: 10px; margin-right: 10px;
+    font-size: 12px;
+    color: dodgerblue;
+    vertical-align: bottom;
+    
+}
+#project_details_status_section button{
+    display: inline-block;
+}
+
+#project_details_page_edit_button_container{
+    display:inline-block;
+}
+#project_details_page_add_to_project_container{
+    display:inline-block;
+}
+
+#project_details_page_status_bar{
+    width: 1200px;
+    height: 60px;
+    margin-top: 7px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-bottom: 12px;
+    background-color: white;
+    border-radius: 3px;
+    contain: strict;
+}
+
+#project_details_page_take_tour_button{
+    font-size: 12px;
+    color: dodgerblue;
+    text-decoration: none;
+    position: absolute;
+    right: 70px;
+}
+#project_details_page_edit_button{
+    text-decoration: none;
+    border-style: solid;
+    background-color:initial;
+    border-radius: 20px;
+    border-color: black;;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+}
+#project_details_page_edit_button:hover{
+    transform: scale(1.05);
+}
+#project_details_page_action_buttons_container{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+}
+
+#project_details_page_add_to_project_button{
+    font-size: 15px;
+    background-color: green;
+    color: white; 
+    border-style: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+
+}
+#project_details_page_add_to_project_button:hover{
+    transform: scale(1.05);
+}
+#project_details_page_status_bar > div{
+    display: inline-block;
+}
+
+#project_details_page_status_bar *{
+    font-size: 11px;
+    color: grey;
+    margin: 0px;
+}
+#project_details_page_profit_margin_container{
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+#project_details_page_profit_margin_container h4{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0px;
+}
+#project_details_page_income_costs_section{
+    width: 650px;
+    border-right: 1px solid grey;
+}
+
+
+#project_details_page_costs_section *, #project_details_page_income_section *{
+    display: inline-block;
+}
+#project_details_page_income_bar, #project_details_page_costs_bar{
+    height: 4px;
+    width: 500px;
+    background-color: lightgrey;
+    position: absolute;
+    left: 275px;
+}
+#project_details_page_income_bar{
+    top: 20px;
+}
+#project_details_page_costs_bar{
+    top: 35px;
+}
+#project_details_page_dollar_amounts{
+    position: absolute;
+    left: 800px;
+    top:15px;
+}
+#project_details_info_section button{
+    background-color: initial;
+    border-style: none;
+}
+#project_details_page_info{
+    width: 1200px;
+    height: 600px;
+}
+#project_details_info_section{
+    position: relative;
+    top:75px;
+}
+#project_details_page_overview_column_1,
+#project_details_page_overview_column_2,
+#project_details_page_overview_column_3{
+    border: 1px solid black;
+    display: inline-flex;
+    width: 370px;
+    height: 400px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+
+}
+#project_details_page_overview_column_1,
+#project_details_page_overview_column_2{
+    margin-right: 30px;
+}

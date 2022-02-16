@@ -17,6 +17,7 @@ export const CreateProjectModal = (projectTitle) => {
               
             <label htmlFor="customer_name" id="customer_name_label">Customer *</label>
             <select id="customer_name_input" name ="customer_name" placeholder="Who's the project for?" onChange={(event) => setEnteredCustomertName(event.target.options[event.target.selectedIndex].text)}>
+                <option value="none" selected disabled hidden>Who's the project for?</option>
                 <option value="David C.">David C.</option>
                 <option value="Ivory B.">Ivory B.</option>
                 <option value="Tash L.">Tasha L.</option>

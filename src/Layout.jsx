@@ -10,7 +10,7 @@ import { LeftSideBar } from './nav-components/LeftSideBar'
 import { Redirect, Routes, Route } from 'react-router-dom';
 import ProjectPage  from './project-page/project-page';
 import ProjectDetailsPage from './project-details-page/project-details-page';
-
+import './App.css';
 
 //SubscribePopUpAnnouncement = subscribe pop-up announcement
 //TopNavBar = Sample Company bar
